@@ -1,0 +1,49 @@
+body{
+    background-image: url("background.png");
+}
+
+h1{
+    font-size: 24pt;
+    text-align: center;
+    text: Tahoma Verdana Sans-serif;
+    text-shadow: 3px -3px #999999;
+}
+
+/*this is id(once)*/
+
+#text-size{
+    font-size; 8pt;
+    text: Verdana Tahoma Sans-serif;
+}
+
+#none-layout{
+    margin: none;
+    padding: none;
+}
+
+#content_area{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    text-align: center;
+    border: 4px solid gray;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+
+#rotten{
+    float: left;
+    vertical-align: top;
+
+}
+
+#bag{
+    background-image: url(banner.png);
+    width: width;
+    background-repeat;: none;
+    height: 50px;
+    text-align: center;
+}
+/* this is class ( repeat) */
