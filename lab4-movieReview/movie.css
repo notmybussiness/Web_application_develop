@@ -12,7 +12,7 @@ h1{
 /*this is id(once)*/
 
 #text-size{
-    font-size; 8pt;
+    font-size: 8pt;
     text: Verdana Tahoma Sans-serif;
 }
 
@@ -30,20 +30,48 @@ h1{
     border: 4px solid gray;
     border-radius: 20px;
     overflow: hidden;
-
+    background-image: url("background.png");
 }
 
 #rotten{
-    float: left;
-    vertical-align: top;
-
+    
+    color: red;
+    font-weight: bold;
+    font-size: 48pt;
+    background-image: url(rbg.png);
+    background-size: 83px;
+    width: 550px;
+}
+#rotten img{
+    vertical-align: bottom;
+    height: 83px;
 }
 
 #bag{
-    background-image: url(banner.png);
-    width: width;
-    background-repeat;: none;
+    background-image: url(bannerbg.png);
+    background-repeat: none;
     height: 50px;
     text-align: center;
 }
-/* this is class ( repeat) */
+
+/* this is class */
+.side_left{
+    width: 550px;
+}
+
+.box{
+    font-size: 8pt;
+    font-weight: bold;
+    background-color: #E8DC9B;
+    border: 2px solid gray;
+    border-radius: 10px; 
+}
+.review{
+    font-style: italic;
+
+
+}
+
+.leftreview, .rightreview{
+    width:47%;
+}
